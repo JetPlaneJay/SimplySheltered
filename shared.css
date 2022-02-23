@@ -1,0 +1,48 @@
+body {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+header  {
+      width: 100%;
+      position: fixed;
+ }
+
+ .main-nav {
+   
+ }
+
+ 
+  #main-nav__items {
+
+
+    display: flex;
+    list-style: none;
+
+      
+  }
+  .main-nav__item {
+    margin: .5em;
+  }
+
+
+
+
+  footer {
+      text-align: center;
+      background-color: purple;
+
+  }
+
+  .footer-nav__items {
+      display: flex;
+      list-style: none;
+      width: 100%;
+
+  }
+
+  .footer-nav__item {
+    text-align: center;
+      margin: .25em;
+  } 
+
