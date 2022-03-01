@@ -16,7 +16,7 @@
 <body>
 <header>
 
-        <p id = "list1" onclick = "openList1()">
+        <p id = "list1" onclick="myFunction()">
             <img src="images/logo.png" alt="Simply Shelter - Shelter for the homeless">
         </p>
 
@@ -24,7 +24,7 @@
    
     <nav id = "main-nav">
      
-        <ul id="main-nav__items"  >
+        <ul id="main-nav__items" style="visibility:hidden">
             <li class="main-nav__item">
                 <a href="Learn-More/index.html">Learn More</a>
             </li>
@@ -37,13 +37,10 @@
             <li class="main-nav__item"> 
                 <a href="About/index.html">See us work!</a>
             </li>
-            <li class="main-nav__item">
-                <a href="Need-Help?/index.html">Need help?</a>
-            </li>
         </ul>
     </nav>
 </header>
-
+<main>
 <section class="topSection">
     <img src="images/SimplySheltered.png" alt="help for homeless" class="mainImage">
 </section>
@@ -58,7 +55,7 @@
 
 
 </section>
-
+</main>
 <footer>
 <div>Ways to Help</div>
 <nav class="footer-nav">
@@ -78,5 +75,19 @@
     </ul>
 </nav>
 </footer>
-<script src="scripts.js"></script>
+<!-- <script src="scripts.js"> -->
+<script>
+
+function myFunction() {
+  var x = document.getElementById("main-nav__items");
+  if (x.style.visibility === 'hidden') {
+      x.style.visibility = 'visible';
+  } else {
+      x.style.visibility = 'hidden';
+  }
+  
+}
+
+
+</script>
 </body>
