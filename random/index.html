@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simply Shelter</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<header>
+
+        <p id = "list1" onclick="myFunction()">
+            <img src="images/logo.png" alt="Simply Shelter - Shelter for the homeless">
+        </p>
+
+
+   
+    <nav id = "main-nav">
+     
+        <ul id="main-nav__items" style="visibility:hidden">
+            <li class="main-nav__item">
+                <a href="Learn-More/index.html">Learn More</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="Contact/index.html">Contact Us</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="Volunteer/index.html">Get Involved</a>
+            </li>
+            <li class="main-nav__item"> 
+                <a href="About/index.html">See us work!</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+<section class="topSection">
+    <img src="images/SimplySheltered.png" alt="help for homeless" class="mainImage">
+</section>
+
+<section class="middleSection">
+    <img src="images/Poster.png" alt="small houses for homeless" class="posterImage">
+
+    <h1>Giving Hope</h1>
+    <h2>We build shelters for the homeless</h2>
+</section>
+<section class="finalImage">
+    <img src="images/Homes.jpg" class="homes">
+
+</section>
+</main>
+<footer>
+<div>Ways to Help</div>
+<nav class="footer-nav">
+    <ul class="footer-nav__items">
+        <li class="footer-nav__item">
+            <a href="Donations/index.html">Donate</a>
+        </li>
+        <li class="footer-nav__item">
+            <a href="Volunteer/index.html">Volunteer</a>
+        </li>
+        <li class="footer-nav__item">
+            <a href="About/index.html">See us work!</a>
+        </li>
+        <li class="footer-nav__item">
+            <a href="Need-Help?/index.html">Need help?</a>
+        </li>
+    </ul>
+</nav>
+</footer>
+<!-- <script src="scripts.js"> -->
+<script>
+
+function myFunction() {
+  var x = document.getElementById("main-nav__items");
+  if (x.style.visibility === 'hidden') {
+      x.style.visibility = 'visible';
+  } else {
+      x.style.visibility = 'hidden';
+  }
+  
+}
+
+
+</script>
+</body>
