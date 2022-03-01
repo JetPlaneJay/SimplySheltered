@@ -15,13 +15,15 @@
 
 <body>
 <header>
-
+ <!--this is the logo image...when clicking the image, the functions event (in this case showing the clist) occurs -->
+    
         <p id = "list1" onclick="myFunction()">
             <img src="images/logo.png" alt="Simply Shelter - Shelter for the homeless">
         </p>
 
 
-   
+   <!-- navigation bar -->
+    
     <nav id = "main-nav">
      
         <ul id="main-nav__items" style="visibility:hidden">
@@ -41,17 +43,24 @@
     </nav>
 </header>
 <main>
+    
+    
 <section class="topSection">
     <img src="images/SimplySheltered.png" alt="help for homeless" class="mainImage">
 </section>
 
+    
+    
 <section class="middleSection">
     <img src="images/Poster.png" alt="small houses for homeless" class="posterImage">
 
     <h1>Giving Hope</h1>
     <h2>We build shelters for the homeless</h2>
 </section>
-<section>
+    
+    <!--I did something different for this section....to be honest when making the final draft the section names would have to be different -->
+<section class="finalImage">
+<img src="images/Homes.jpg" class="homes">
 
 
 </section>
@@ -75,14 +84,23 @@
     </ul>
 </nav>
 </footer>
-<!-- <script src="scripts.js"> -->
+
 <script>
 
+   
 function myFunction() {
+    
+     // here the javascript function takes the element with an id of "main-nav__items
+    
   var x = document.getElementById("main-nav__items");
+    
+        //if the style of the element is hidden...when the function happens set the style to visible
+    //else if its current style visibility is visible...the function event will set the style to hidden
+    
   if (x.style.visibility === 'hidden') {
       x.style.visibility = 'visible';
-  } else {
+  } 
+    else {
       x.style.visibility = 'hidden';
   }
   
