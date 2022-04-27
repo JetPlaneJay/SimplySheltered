@@ -7,3 +7,22 @@
 //         list.style.display = "none";
 //     }
 // }
+
+document.querySelector(".posterImage");
+
+
+window.addEventListener('scroll', function(){
+    var value = window.scrollY;
+
+    bg.style.top = -value * 0.15 + 'px'
+})
+
+function myFunction() {
+    var x = document.getElementById("main-nav__items");
+    if (x.style.visibility === 'hidden') {
+        x.style.visibility = 'visibility';
+    } else {
+        x.style.visibility = 'hidden';
+    }
+    
+  }
