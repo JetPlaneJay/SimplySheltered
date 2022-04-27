@@ -1,6 +1,6 @@
 main{
-  /* margin-left: 8em;
-  margin-right: 8em; */
+   margin-left: 3em;
+  margin-right: 3em; 
   justify-content: center;
   text-align: center;
  }
@@ -52,8 +52,6 @@ main{
   
 }
 
-
-
   .posterImage {
     max-height: 40em;
     width: 100%;
@@ -90,20 +88,16 @@ main{
     height: 100%;
   }
 
-
-
-
   @media (min-width: 900px){
     .introVideo {
-      margin-top: 50vh;
+      /* margin-top: 50vh; */
       height: 600px;
       
+    }
+    main {
+      margin-right: 8em;
+      margin-left: 8em;
     }
 
   }
 
-  @media (max-width: 100px){
-    main {
-  
-     }
-  }
