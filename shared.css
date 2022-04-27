@@ -3,16 +3,18 @@
     margin-right: 5em;
 } */
 
+
+
+
+
+
+
 header  {
       width: 100%;
       position: fixed;
  }
 
- main{
-  margin-left: 5em;
-  margin-right: 5em;
- }
-
+ 
  .list1 {
    margin-left: 0%;
  }
@@ -43,8 +45,6 @@ header  {
   footer {
       text-align: center;
       background-color: purple;
-
-
   }
 
   .footer-nav__items {
