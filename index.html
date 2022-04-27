@@ -15,15 +15,12 @@
 
 <body>
 <header>
- <!--this is the logo image...when clicking the image, the functions event (in this case showing the clist) occurs -->
-    
-        <p id = "list1" onclick="myFunction()">
+
             <img src="images/logo.png" alt="Simply Shelter - Shelter for the homeless">
         </p>
 
 
-   <!-- navigation bar -->
-    
+   
     <nav id = "main-nav">
      
         <ul id="main-nav__items" style="visibility:hidden">
@@ -42,28 +39,38 @@
         </ul>
     </nav>
 </header>
-<main>
-    
+ <main> 
     
 <section class="topSection">
     <img src="images/SimplySheltered.png" alt="help for homeless" class="mainImage">
 </section>
 
-    
-    
+<iframe class="introVideo"
+width="560" height="315" src="https://www.youtube.com/embed/pXgReM6QTdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
 <section class="middleSection">
     <img src="images/Poster.png" alt="small houses for homeless" class="posterImage">
 
     <h1>Giving Hope</h1>
     <h2>We build shelters for the homeless</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 </section>
-    
-    <!--I did something different for this section....to be honest when making the final draft the section names would have to be different -->
+<section class="image-gallery">
+    <img src="images/Delivery Trimmed.jpg" >
+    <img src="images/DSC_4182.jpg">
+    <img src="images/DSC_4190.jpg">
+    <img src="images/DSC_4258.jpg">
+</section>
+
 <section class="finalImage">
+    <p>Cursus turpis massa tincidunt dui ut ornare. Turpis egestas sed tempus urna et. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Risus in hendrerit gravida rutrum quisque. Mauris cursus mattis molestie a iaculis at. Turpis in eu mi bibendum. Vestibulum lorem sed risus ultricies. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Enim praesent elementum facilisis leo vel fringilla. Fusce ut placerat orci nulla pellentesque.</p>
 <img src="images/Homes.jpg" class="homes">
 
-
 </section>
+
+
+<div class="elfsight-app-9a24ce62-e814-46b1-8ffe-ba41da37bc80"></div>
 </main>
 <footer>
 <div>Ways to Help</div>
@@ -84,27 +91,15 @@
     </ul>
 </nav>
 </footer>
+<!-- <script src="scripts.js">  -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<script defer src="scripts.js">
 
-<script>
 
-   
-function myFunction() {
-    
-     // here the javascript function takes the element with an id of "main-nav__items
-    
-  var x = document.getElementById("main-nav__items");
-    
-        //if the style of the element is hidden...when the function happens set the style to visible
-    //else if its current style visibility is visible...the function event will set the style to hidden
-    
-  if (x.style.visibility === 'hidden') {
-      x.style.visibility = 'visible';
-  } 
-    else {
-      x.style.visibility = 'hidden';
-  }
-  
-}
+    </script>
+
+
+
 
 
 </script>
